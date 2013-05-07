@@ -31,11 +31,11 @@
         <id>0</id>
         <inactive>false</inactive>
         <lock-version>0</lock-version>
-        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
         <last-update-user>admin</last-update-user>
         <created>2013-05-05T04:08:57+00:00</created>
         <create-user>admin</create-user>
-        <name>CloudVolumes Clustered WordPress Blog</name>
+        <name>CloudVolumes WordPress Cluster</name>
         <description>Three-tier CloudVolumes-enabled Wordpress application on Windows nodes; Apache HTTP Server for load balancer, Apache+PHP+Wordpress for application server (clustered), and MySQL Server for database server.</description>
         <revision>0</revision>
         <major>1</major>
@@ -49,11 +49,11 @@
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-05-05T04:08:33+00:00</last-updated>
+            <last-updated>2013-05-07T01:44:30+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2013-04-09T08:02:55+00:00</created>
             <create-user>admin</create-user>
-            <name>CloudVolumes Clustered WordPress Blog</name>
+            <name>CloudVolumes WordPress Cluster</name>
             <description>CloudVolumes instantly provisioned Wordpress cluster:
 Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpress cluster</description>
             <revision>0</revision>
@@ -75,7 +75,7 @@ Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpre
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+            <last-updated>2013-05-07T01:51:55+00:00</last-updated>
             <last-update-user>admin</last-update-user>
             <created>2013-05-05T04:08:57+00:00</created>
             <create-user>admin</create-user>
@@ -86,7 +86,7 @@ Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpre
                 <id>0</id>
                 <inactive>false</inactive>
                 <lock-version>0</lock-version>
-                <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                 <last-update-user>admin</last-update-user>
                 <created>2013-05-05T04:08:57+00:00</created>
                 <create-user>admin</create-user>
@@ -98,7 +98,7 @@ Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpre
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-02T04:29:27+00:00</last-updated>
+                    <last-updated>2013-05-06T07:15:54+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2012-03-15T10:00:00+00:00</created>
                     <create-user>SYSTEM</create-user>
@@ -220,7 +220,21 @@ Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpre
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-02T04:29:02+00:00</last-updated>
+                        <last-updated>2013-05-06T07:14:47+00:00</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-05-06T07:14:47+00:00</created>
+                        <create-user>admin</create-user>
+                        <revision>0</revision>
+                        <name>w2k8r2-cloudvolumes-M1278</name>
+                        <description></description>
+                        <template-uri>https://vcloud.snapvolumes.local/api/vAppTemplate/vappTemplate-37077b6b-27a9-4298-bb31-f293bf6b7c55</template-uri>
+                        <os-name>windows7Server64Guest</os-name>
+                    </vm-physical-templates>
+                    <vm-physical-templates>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-05-06T07:14:47+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-02T04:29:02+00:00</created>
                         <create-user>admin</create-user>
@@ -234,7 +248,7 @@ Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpre
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-02T04:29:02+00:00</last-updated>
+                        <last-updated>2013-05-06T07:14:47+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-04-19T09:30:47+00:00</created>
                         <create-user>admin</create-user>
@@ -275,7 +289,7 @@ Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpre
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -286,7 +300,7 @@ Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpre
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -304,9 +318,9 @@ Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpre
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-05T04:14:31+00:00</created>
+                        <created>2013-05-07T01:51:55+00:00</created>
                         <create-user>admin</create-user>
                         <node-component-dependency-type>
                             <id>0</id>
@@ -821,10 +835,10 @@ Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpre
                             <description>Property will not participate in auto-binding.</description>
                             <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
                         </prop-auto-bind-type>
-                        <value><![CDATA[["None"]]]></value>
+                        <value><![CDATA[${['database']['host']['ip']}]]></value>
                         <readonly>false</readonly>
-                        <overridable>true</overridable>
-                        <expression>false</expression>
+                        <overridable>false</overridable>
+                        <expression>true</expression>
                         <ns3:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
@@ -848,6 +862,30 @@ Apache HTTP Server, MySQL database, Apache load balancer, and Apache+PHP+Wordpre
                             <value><![CDATA[["None"]]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
+                        </ns3:bound-prop>
+                        <ns3:bound-prop>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-05-07T01:51:55+00:00</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-05-07T01:51:55+00:00</created>
+                            <create-user>admin</create-user>
+                            <bind-lifecycle-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2012-12-14T01:08:50+00:00</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Blueprint</name>
+                                <description>Bindable at blueprint level.</description>
+                                <lifecycle-order>2</lifecycle-order>
+                            </bind-lifecycle-type>
+                            <value><![CDATA[${['database']['host']['ip']}]]></value>
+                            <overridable>false</overridable>
+                            <expression>true</expression>
                         </ns3:bound-prop>
                     </props>
                     <props>
@@ -3200,7 +3238,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -3240,7 +3278,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -3265,7 +3303,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -3305,7 +3343,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -3330,7 +3368,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -3370,7 +3408,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -3395,7 +3433,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -3435,7 +3473,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -3461,7 +3499,7 @@ set &gt; %2</exec-script>
                 <id>0</id>
                 <inactive>false</inactive>
                 <lock-version>0</lock-version>
-                <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                 <last-update-user>admin</last-update-user>
                 <created>2013-05-05T04:08:57+00:00</created>
                 <create-user>admin</create-user>
@@ -3473,7 +3511,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-02T04:29:27+00:00</last-updated>
+                    <last-updated>2013-05-06T07:15:54+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2012-03-15T10:00:00+00:00</created>
                     <create-user>SYSTEM</create-user>
@@ -3595,7 +3633,21 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-02T04:29:02+00:00</last-updated>
+                        <last-updated>2013-05-06T07:14:47+00:00</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-05-06T07:14:47+00:00</created>
+                        <create-user>admin</create-user>
+                        <revision>0</revision>
+                        <name>w2k8r2-cloudvolumes-M1278</name>
+                        <description></description>
+                        <template-uri>https://vcloud.snapvolumes.local/api/vAppTemplate/vappTemplate-37077b6b-27a9-4298-bb31-f293bf6b7c55</template-uri>
+                        <os-name>windows7Server64Guest</os-name>
+                    </vm-physical-templates>
+                    <vm-physical-templates>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-05-06T07:14:47+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-02T04:29:02+00:00</created>
                         <create-user>admin</create-user>
@@ -3609,7 +3661,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-02T04:29:02+00:00</last-updated>
+                        <last-updated>2013-05-06T07:14:47+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-04-19T09:30:47+00:00</created>
                         <create-user>admin</create-user>
@@ -3650,7 +3702,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -3668,9 +3720,9 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-05T04:14:31+00:00</created>
+                        <created>2013-05-07T01:51:55+00:00</created>
                         <create-user>admin</create-user>
                         <node-component-dependency-type>
                             <id>0</id>
@@ -5068,7 +5120,7 @@ set &gt; %2</exec-script>
                             <description>Property will not participate in auto-binding.</description>
                             <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
                         </prop-auto-bind-type>
-                        <value><![CDATA[]]></value>
+                        <value><![CDATA[WordpressDB.vmdk]]></value>
                         <readonly>false</readonly>
                         <overridable>true</overridable>
                         <expression>false</expression>
@@ -5100,7 +5152,7 @@ set &gt; %2</exec-script>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                            <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                             <last-update-user>admin</last-update-user>
                             <created>2013-05-05T04:12:49+00:00</created>
                             <create-user>admin</create-user>
@@ -5116,6 +5168,7 @@ set &gt; %2</exec-script>
                                 <description>Bindable at blueprint level.</description>
                                 <lifecycle-order>2</lifecycle-order>
                             </bind-lifecycle-type>
+                            <value><![CDATA[WordpressDB.vmdk]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
                         </ns3:bound-prop>
@@ -5781,7 +5834,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -5821,7 +5874,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -5846,7 +5899,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -5886,7 +5939,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -5911,7 +5964,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -5951,7 +6004,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -5976,7 +6029,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -6016,7 +6069,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -6042,7 +6095,7 @@ set &gt; %2</exec-script>
                 <id>0</id>
                 <inactive>false</inactive>
                 <lock-version>0</lock-version>
-                <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                 <last-update-user>admin</last-update-user>
                 <created>2013-05-05T04:08:57+00:00</created>
                 <create-user>admin</create-user>
@@ -6054,7 +6107,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-02T04:29:27+00:00</last-updated>
+                    <last-updated>2013-05-06T07:15:54+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2012-03-15T10:00:00+00:00</created>
                     <create-user>SYSTEM</create-user>
@@ -6176,7 +6229,21 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-02T04:29:02+00:00</last-updated>
+                        <last-updated>2013-05-06T07:14:47+00:00</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-05-06T07:14:47+00:00</created>
+                        <create-user>admin</create-user>
+                        <revision>0</revision>
+                        <name>w2k8r2-cloudvolumes-M1278</name>
+                        <description></description>
+                        <template-uri>https://vcloud.snapvolumes.local/api/vAppTemplate/vappTemplate-37077b6b-27a9-4298-bb31-f293bf6b7c55</template-uri>
+                        <os-name>windows7Server64Guest</os-name>
+                    </vm-physical-templates>
+                    <vm-physical-templates>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2013-05-06T07:14:47+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-02T04:29:02+00:00</created>
                         <create-user>admin</create-user>
@@ -6190,7 +6257,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-02T04:29:02+00:00</last-updated>
+                        <last-updated>2013-05-06T07:14:47+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-04-19T09:30:47+00:00</created>
                         <create-user>admin</create-user>
@@ -6231,7 +6298,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -6249,9 +6316,9 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-05T04:14:31+00:00</created>
+                        <created>2013-05-07T01:51:55+00:00</created>
                         <create-user>admin</create-user>
                         <node-component-dependency-type>
                             <id>0</id>
@@ -7289,7 +7356,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -7329,7 +7396,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -7354,7 +7421,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -7394,7 +7461,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -7419,7 +7486,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -7459,7 +7526,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
@@ -7484,7 +7551,7 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                    <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                     <last-update-user>admin</last-update-user>
                     <created>2013-05-05T04:08:57+00:00</created>
                     <create-user>admin</create-user>
@@ -7524,7 +7591,7 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:14:31+00:00</last-updated>
+                        <last-updated>2013-05-07T01:51:55+00:00</last-updated>
                         <last-update-user>admin</last-update-user>
                         <created>2013-05-05T04:08:57+00:00</created>
                         <create-user>admin</create-user>
