@@ -1,42 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns24:export-package
-    xmlns:ns10="http://www.vmware.com/darwin/schema/beans/cloud/provider"
-    xmlns:ns6="http://www.vmware.com/darwin/schema/beans/catalog/component"
-    xmlns:ns18="http://www.vmware.com/darwin/schema/beans/update/profile"
-    xmlns:ns16="http://www.vmware.com/darwin/schema/beans/flow"
-    xmlns:ns25="http://www.vmware.com/darwin/schema/beans/notification"
-    xmlns:ns5="http://www.vmware.com/darwin/schema/beans/entity"
-    xmlns:ns13="http://www.vmware.com/darwin/schema/beans/cloud/tunnel"
-    xmlns:ns21="http://www.vmware.com/darwin/schema/beans/security/user"
-    xmlns:ns23="http://www.vmware.com/darwin/schema/beans/ssl"
-    xmlns:ns20="http://www.vmware.com/darwin/schema/beans/security/ldap"
-    xmlns:ns14="http://www.vmware.com/darwin/schema/beans/deployment/environment"
-    xmlns:ns22="http://www.vmware.com/darwin/schema/beans/networking"
+<ns33:export-package
+    xmlns:ns48="http://www.vmware.com/darwin/api/v2/beans/properties"
+    xmlns:ns33="http://www.vmware.com/darwin/schema/beans/exim"
+    xmlns:ns24="http://www.vmware.com/darwin/schema/beans/deployment"
+    xmlns:ns27="http://www.vmware.com/darwin/schema/beans/security/ldap"
+    xmlns:ns16="http://www.vmware.com/darwin/schema/beans/deployment/environment"
+    xmlns:ns38="http://www.vmware.com/darwin/api/v2/beans/cloud"
+    xmlns:ns22="http://www.vmware.com/darwin/schema/beans/rollback/profile"
+    xmlns:ns46="http://www.vmware.com/darwin/schema/beans/storage"
+    xmlns:ns3="http://www.vmware.com/darwin/schema/beans/security"
+    xmlns:ns30="http://www.vmware.com/darwin/schema/beans/ssl"
+    xmlns:ns47="http://www.vmware.com/darwin/schema/beans/monitor"
+    xmlns:ns29="http://www.vmware.com/darwin/schema/beans/networking"
+    xmlns:ns32="http://www.vmware.com/darwin/schema/beans/api"
+    xmlns:ns40="http://www.vmware.com/darwin/api/v2/beans/catalog"
+    xmlns:ns17="http://www.vmware.com/darwin/schema/beans/policy"
+    xmlns:ns26="http://www.vmware.com/darwin/schema/beans/csp/cafe"
+    xmlns:ns37="http://www.vmware.com/darwin/api/v2/beans/certificate"
+    xmlns:ns31="http://www.vmware.com/darwin/schema/beans/notification"
+    xmlns:ns13="http://www.vmware.com/darwin/schema/beans/solution"
     xmlns:ns2="http://www.vmware.com/darwin/schema/beans/response"
-    xmlns:ns26="http://www.vmware.com/darwin/schema/beans/api"
-    xmlns:ns19="http://www.vmware.com/darwin/schema/beans/deployment"
-    xmlns:ns4="http://www.vmware.com/darwin/schema/beans/metatag"
-    xmlns:ns3="http://www.vmware.com/darwin/schema/beans/props"
-    xmlns:ns11="http://www.vmware.com/darwin/schema/beans/physical/template"
-    xmlns:ns27="http://www.vmware.com/darwin/schema/beans/license"
-    xmlns:ns24="http://www.vmware.com/darwin/schema/beans/exim"
-    xmlns:ns17="http://www.vmware.com/darwin/schema/beans/deployment/profile"
-    xmlns:ns15="http://www.vmware.com/darwin/schema/beans/driver/location"
-    xmlns:ns9="http://www.vmware.com/darwin/schema/beans/scripts"
+    xmlns:ns25="http://www.vmware.com/darwin/schema/beans/driver/location"
+    xmlns:ns15="http://www.vmware.com/darwin/schema/beans/cloud/tunnel"
+    xmlns:ns39="http://www.vmware.com/darwin/api/v2/beans/deployment/profile"
+    xmlns:ns45="http://www.vmware.com/darwin/api/v2/beans/application"
+    xmlns:ns4="http://www.vmware.com/darwin/schema/beans/application"
+    xmlns:ns14="http://www.vmware.com/darwin/schema/beans/deployment/system"
+    xmlns:ns35="http://www.vmware.com/darwin/api/v2/beans"
+    xmlns:ns5="http://www.vmware.com/darwin/schema/beans/props"
+    xmlns:ns21="http://www.vmware.com/darwin/schema/beans/update/profile"
+    xmlns:ns10="http://www.vmware.com/darwin/schema/beans/cloud/provider"
+    xmlns:ns7="http://www.vmware.com/darwin/schema/beans/entity"
+    xmlns:ns44="http://www.vmware.com/darwin/api/v2/beans/security"
+    xmlns:ns28="http://www.vmware.com/darwin/schema/beans/security/user"
+    xmlns:ns19="http://www.vmware.com/darwin/schema/beans/profile/base"
+    xmlns:ns49="http://www.vmware.com/darwin/schema/beans/exim/vsxclient"
+    xmlns:ns20="http://www.vmware.com/darwin/schema/beans/deployment/profile"
     xmlns:ns12="http://www.vmware.com/darwin/schema/beans/blueprint"
-    xmlns:ns8="http://www.vmware.com/darwin/schema/beans/application" xmlns:ns7="http://www.vmware.com/darwin/schema/beans/security">
+    xmlns:ns9="http://www.vmware.com/darwin/schema/beans/scripts"
+    xmlns:ns34="http://www.vmware.com/darwin/schema/beans/exim/marketplace"
+    xmlns:ns23="http://www.vmware.com/darwin/schema/beans/teardown/profile"
+    xmlns:ns36="http://www.vmware.com/darwin/api/v2/beans/update/profile"
+    xmlns:ns18="http://www.vmware.com/darwin/schema/beans/flow"
+    xmlns:ns6="http://www.vmware.com/darwin/schema/beans/metatag"
+    xmlns:ns42="http://www.vmware.com/darwin/api/v2/beans/csp"
+    xmlns:ns11="http://www.vmware.com/darwin/schema/beans/physical/template"
+    xmlns:ns43="http://www.vmware.com/darwin/api/v2/beans/deployment"
+    xmlns:ns8="http://www.vmware.com/darwin/schema/beans/catalog/component" xmlns:ns41="http://www.vmware.com/darwin/schema/beans/license">
     <errors>false</errors>
-    <application-director-version>vFabric Application Director CLI BUILD [5.0.0-943241]</application-director-version>
+    <application-director-version>vCloud Application Director CLI BUILD [6.0.0-1446071]</application-director-version>
     <application-versions>
         <id>0</id>
         <inactive>false</inactive>
         <lock-version>0</lock-version>
-        <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+        <last-updated>2014-02-27T14:21:53+05:30</last-updated>
         <last-update-user>admin</last-update-user>
-        <created>2013-05-05T04:06:00+00:00</created>
+        <created>2014-02-27T14:21:53+05:30</created>
         <create-user>admin</create-user>
         <name>CloudVolumes Apache HTTP Server</name>
         <description></description>
+        <group-membership>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2014-02-27T14:21:53+05:30</created>
+            <create-user>admin</create-user>
+            <owner-group>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2013-11-26T02:58:20+05:30</created>
+                <create-user>SYSTEM</create-user>
+                <name>Default</name>
+                <description>The Default vCloud Application Director group.</description>
+                <name-message-key>group.default.name</name-message-key>
+                <description-message-key>group.default.description</description-message-key>
+            </owner-group>
+            <global>false</global>
+        </group-membership>
         <revision>0</revision>
         <major>1</major>
         <minor>0</minor>
@@ -49,34 +94,44 @@
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-05-01T03:15:10+00:00</last-updated>
+            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-04-08T04:23:21+00:00</created>
+            <created>2014-02-27T14:21:53+05:30</created>
             <create-user>admin</create-user>
             <name>CloudVolumes Apache HTTP Server</name>
             <description>CloudVolumes instantly provisioned Apache HTTP Server</description>
             <revision>0</revision>
-            <group>
+            <group-membership>
                 <id>0</id>
                 <inactive>false</inactive>
                 <lock-version>0</lock-version>
-                <last-updated>2012-12-14T01:08:51+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2012-12-14T01:08:51+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>Default</name>
-                <description>The Default vFabric Application Director group.</description>
-                <name-message-key>group.default.name</name-message-key>
-                <description-message-key>group.default.description</description-message-key>
-            </group>
+                <last-updated>2014-02-27T14:21:53+05:30</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2014-02-27T14:21:53+05:30</created>
+                <create-user>admin</create-user>
+                <owner-group>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2013-11-26T02:58:20+05:30</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Default</name>
+                    <description>The Default vCloud Application Director group.</description>
+                    <name-message-key>group.default.name</name-message-key>
+                    <description-message-key>group.default.description</description-message-key>
+                </owner-group>
+                <global>false</global>
+            </group-membership>
         </application>
         <blueprint>
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-05-05T04:06:00+00:00</created>
+            <created>2014-02-27T14:21:53+05:30</created>
             <create-user>admin</create-user>
             <name>CloudVolumes SQL Server Comparison v1.0</name>
             <description></description>
@@ -85,9 +140,9 @@
                 <id>0</id>
                 <inactive>false</inactive>
                 <lock-version>0</lock-version>
-                <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+                <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                 <last-update-user>admin</last-update-user>
-                <created>2013-05-05T04:06:00+00:00</created>
+                <created>2014-02-27T14:21:53+05:30</created>
                 <create-user>admin</create-user>
                 <name>W2K8_R2_Enterprise_SP1_1.0-2</name>
                 <grid-row>2</grid-row>
@@ -97,12 +152,35 @@
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-02T04:29:27+00:00</last-updated>
+                    <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                     <last-update-user>admin</last-update-user>
-                    <created>2012-03-15T10:00:00+00:00</created>
+                    <created>2012-03-15T10:00:00+05:30</created>
                     <create-user>SYSTEM</create-user>
                     <name>W2K8 R2 Enterprise SP1</name>
                     <description>Windows Server 2008 R2 Enterprise SP1 VM</description>
+                    <group-membership>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>0</lock-version>
+                        <last-updated>2014-02-05T15:56:23+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2011-11-22T19:59:18+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <owner-group>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-11-26T02:58:20+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>Default</name>
+                            <description>The Default vCloud Application Director group.</description>
+                            <name-message-key>group.default.name</name-message-key>
+                            <description-message-key>group.default.description</description-message-key>
+                        </owner-group>
+                        <global>false</global>
+                    </group-membership>
                     <revision>0</revision>
                     <major>1</major>
                     <minor>0</minor>
@@ -114,9 +192,9 @@
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                        <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-12-14T01:08:50+00:00</created>
+                        <last-updated>2014-02-27T14:21:52+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
                         <create-user>SYSTEM</create-user>
                         <name>OS Templates</name>
                         <description>OS Templates</description>
@@ -124,9 +202,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>Server Type</name>
                             <description>Server type, primarily used for organizing data.</description>
@@ -138,9 +216,9 @@
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2012-03-15T10:00:00+00:00</last-updated>
-                        <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-03-15T10:00:00+00:00</created>
+                        <last-updated>2014-02-27T14:21:53+05:30</last-updated>
+                        <last-update-user>admin</last-update-user>
+                        <created>2012-03-15T10:00:00+05:30</created>
                         <create-user>SYSTEM</create-user>
                         <name>WIN64</name>
                         <description>Windows Server 2008 R2 Enterprise SP1</description>
@@ -155,9 +233,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:51+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:21+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:51+00:00</created>
+                            <created>2013-11-26T02:58:21+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>WIN64</name>
                             <description>Microsoft Windows 64bit</description>
@@ -167,9 +245,9 @@
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:19+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>Windows</name>
                                 <description>Windows based operating systems</description>
@@ -177,9 +255,9 @@
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>OS Family</name>
                                     <description>Operating System (OS) Family.</description>
@@ -192,9 +270,9 @@
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:19+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>x86_64</name>
                                 <description>x86_64</description>
@@ -202,9 +280,9 @@
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Hardware Architecture</name>
                                     <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
@@ -219,68 +297,162 @@
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-02T04:29:02+00:00</last-updated>
+                        <last-updated>2014-02-21T14:17:03+05:30</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-02T04:29:02+00:00</created>
+                        <created>2014-02-04T15:04:09+05:30</created>
                         <create-user>admin</create-user>
-                        <revision>0</revision>
-                        <name>w2k8r2-cloudvolumes-M1261</name>
+                        <name>WIN2K8R2-LinkedClone</name>
                         <description></description>
-                        <template-uri>https://vcloud.snapvolumes.local/api/vAppTemplate/vappTemplate-d925d683-29d2-4399-bab3-ab22076fcb7d</template-uri>
-                        <os-name>windows7Server64Guest</os-name>
-                    </vm-physical-templates>
-                    <vm-physical-templates>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2013-05-02T04:29:02+00:00</last-updated>
-                        <last-update-user>admin</last-update-user>
-                        <created>2013-04-19T09:30:47+00:00</created>
-                        <create-user>admin</create-user>
-                        <revision>0</revision>
-                        <name>w2k8r2-cloudvolumes-M1206</name>
-                        <description></description>
-                        <template-uri>https://vcloud.snapvolumes.local/api/vAppTemplate/vappTemplate-fa4fe9da-86b2-4438-b90d-f8455b2fde1b</template-uri>
-                        <os-name>windows7Server64Guest</os-name>
+                        <template-uri>vcac://pg/0be101bb-4a96-42fb-8f55-16b70d508fdc/bp/e78a8cf5-1fd3-4cb8-957a-346529e17134</template-uri>
+                        <os-name></os-name>
+                        <props>
+                            <key>provisioning_group_id</key>
+                            <value><![CDATA[0be101bb-4a96-42fb-8f55-16b70d508fdc]]></value>
+                        </props>
+                        <bindable-props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2012-11-27T00:00:00+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2012-11-27T00:00:00+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>reservation_policy_id</name>
+                            <description>Reservation Policy ID for a vCAC Template</description>
+                            <key>reservation_policy_id</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[]]></value>
+                            <readonly>false</readonly>
+                            <overridable>true</overridable>
+                            <expression>false</expression>
+                        </bindable-props>
+                        <bindable-props>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2013-01-04T00:00:00+05:30</last-updated>
+                            <last-update-user>SYSTEM</last-update-user>
+                            <created>2013-01-04T00:00:00+05:30</created>
+                            <create-user>SYSTEM</create-user>
+                            <name>provisioning_group_id</name>
+                            <description>Provisioning Group ID for a vCAC Template</description>
+                            <key>provisioning_group_id</key>
+                            <prop-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>String</name>
+                                <description>String (java.lang.String).</description>
+                            </prop-type>
+                            <required>true</required>
+                            <secured>false</secured>
+                            <prop-auto-bind-type>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>1</lock-version>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:19+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>None</name>
+                                <description>Property will not participate in auto-binding.</description>
+                                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                            </prop-auto-bind-type>
+                            <value><![CDATA[0be101bb-4a96-42fb-8f55-16b70d508fdc]]></value>
+                            <readonly>false</readonly>
+                            <overridable>false</overridable>
+                            <expression>false</expression>
+                            <ns5:bound-prop>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2014-02-21T14:17:03+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2014-02-17T13:39:05+05:30</created>
+                                <create-user>admin</create-user>
+                                <bind-lifecycle-type>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:19+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Cloud Provider</name>
+                                    <description>Bindable at cloud provider level.</description>
+                                    <lifecycle-order>3</lifecycle-order>
+                                </bind-lifecycle-type>
+                                <value><![CDATA[0be101bb-4a96-42fb-8f55-16b70d508fdc]]></value>
+                                <overridable>false</overridable>
+                                <expression>false</expression>
+                            </ns5:bound-prop>
+                        </bindable-props>
                     </vm-physical-templates>
                     <vm-template>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2012-12-14T01:08:52+00:00</last-updated>
+                        <last-updated>2013-11-26T02:58:21+05:30</last-updated>
                         <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-12-14T01:08:52+00:00</created>
+                        <created>2013-11-26T02:58:21+05:30</created>
                         <create-user>SYSTEM</create-user>
                         <name>W2K8 R2 Enterprise SP1</name>
                         <description>Windows Server 2008 R2 Enterprise SP1 VM</description>
                         <revision>0</revision>
-                        <icon-name>windowstemplate</icon-name>
-                        <group>
+                        <group-membership>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:51+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:51+00:00</created>
+                            <last-updated>2014-02-05T15:56:23+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2011-11-22T19:59:18+05:30</created>
                             <create-user>SYSTEM</create-user>
-                            <name>Default</name>
-                            <description>The Default vFabric Application Director group.</description>
-                            <name-message-key>group.default.name</name-message-key>
-                            <description-message-key>group.default.description</description-message-key>
-                        </group>
+                            <owner-group>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Default</name>
+                                <description>The Default vCloud Application Director group.</description>
+                                <name-message-key>group.default.name</name-message-key>
+                                <description-message-key>group.default.description</description-message-key>
+                            </owner-group>
+                            <global>false</global>
+                        </group-membership>
+                        <icon-name>windowstemplate</icon-name>
                     </vm-template>
                 </vm-template-version>
-                <ns12:node-nic>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:06:39+00:00</last-updated>
-                    <last-update-user>admin</last-update-user>
-                    <created>2013-05-05T04:06:00+00:00</created>
-                    <create-user>admin</create-user>
-                    <name>NIC0</name>
-                    <network-name>Default Logical Network</network-name>
-                </ns12:node-nic>
                 <service-node-component>
                     <id>0</id>
                     <inactive>false</inactive>
@@ -292,9 +464,9 @@
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                        <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-01T02:49:23+00:00</created>
+                        <created>2014-02-27T14:21:53+05:30</created>
                         <create-user>admin</create-user>
                         <name></name>
                         <description>CloudVolumes volume name</description>
@@ -303,9 +475,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>String</name>
                             <description>String (java.lang.String).</description>
@@ -316,9 +488,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>1</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>None</name>
                             <description>Property will not participate in auto-binding.</description>
@@ -328,21 +500,21 @@
                         <readonly>false</readonly>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                        <ns3:bound-prop>
+                        <ns5:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-05-01T02:49:23+00:00</created>
+                            <created>2014-02-27T14:21:53+05:30</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:19+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>Catalog</name>
                                 <description>Bindable at service/catalog level.</description>
@@ -351,15 +523,15 @@
                             <value><![CDATA[apache_2.2.22.vmdk]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
+                        </ns5:bound-prop>
                     </props>
                     <props>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                        <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-01T02:49:23+00:00</created>
+                        <created>2014-02-27T14:21:53+05:30</created>
                         <create-user>admin</create-user>
                         <name></name>
                         <description>CloudVolumes Agent Installation Directory</description>
@@ -368,9 +540,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>String</name>
                             <description>String (java.lang.String).</description>
@@ -381,9 +553,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>1</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>None</name>
                             <description>Property will not participate in auto-binding.</description>
@@ -393,21 +565,21 @@
                         <readonly>false</readonly>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                        <ns3:bound-prop>
+                        <ns5:bound-prop>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-05-01T02:49:23+00:00</created>
+                            <created>2014-02-27T14:21:53+05:30</created>
                             <create-user>admin</create-user>
                             <bind-lifecycle-type>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:19+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>Catalog</name>
                                 <description>Bindable at service/catalog level.</description>
@@ -416,18 +588,41 @@
                             <value><![CDATA[\Program Files (x86)\CloudVolumes\Agent]]></value>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                        </ns3:bound-prop>
+                        </ns5:bound-prop>
                     </props>
                     <service-version>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                        <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-01T02:49:23+00:00</created>
+                        <created>2014-02-27T14:21:53+05:30</created>
                         <create-user>admin</create-user>
                         <name>CloudVolumes Apache HTTP Server</name>
                         <description>CloudVolumes dynamically delivered Apache HTTP Server Volume</description>
+                        <group-membership>
+                            <id>0</id>
+                            <inactive>false</inactive>
+                            <lock-version>0</lock-version>
+                            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2014-02-27T14:21:53+05:30</created>
+                            <create-user>admin</create-user>
+                            <owner-group>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                <last-update-user>SYSTEM</last-update-user>
+                                <created>2013-11-26T02:58:20+05:30</created>
+                                <create-user>SYSTEM</create-user>
+                                <name>Default</name>
+                                <description>The Default vCloud Application Director group.</description>
+                                <name-message-key>group.default.name</name-message-key>
+                                <description-message-key>group.default.description</description-message-key>
+                            </owner-group>
+                            <global>false</global>
+                        </group-membership>
                         <revision>0</revision>
                         <major>1</major>
                         <minor>0</minor>
@@ -440,9 +635,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-05-01T02:49:23+00:00</created>
+                            <created>2014-02-27T14:21:53+05:30</created>
                             <create-user>admin</create-user>
                             <name></name>
                             <description>CloudVolumes volume name</description>
@@ -451,9 +646,9 @@
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:19+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>String</name>
                                 <description>String (java.lang.String).</description>
@@ -464,9 +659,9 @@
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>1</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:19+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>None</name>
                                 <description>Property will not participate in auto-binding.</description>
@@ -476,21 +671,21 @@
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns5:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                                <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-05-01T02:49:23+00:00</created>
+                                <created>2014-02-27T14:21:53+05:30</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Catalog</name>
                                     <description>Bindable at service/catalog level.</description>
@@ -499,15 +694,15 @@
                                 <value><![CDATA[apache_2.2.22.vmdk]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns5:bound-prop>
                         </props>
                         <props>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-05-01T02:49:23+00:00</created>
+                            <created>2014-02-27T14:21:53+05:30</created>
                             <create-user>admin</create-user>
                             <name></name>
                             <description>CloudVolumes Agent Installation Directory</description>
@@ -516,9 +711,9 @@
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:19+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>String</name>
                                 <description>String (java.lang.String).</description>
@@ -529,9 +724,9 @@
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>1</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:19+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>None</name>
                                 <description>Property will not participate in auto-binding.</description>
@@ -541,21 +736,21 @@
                             <readonly>false</readonly>
                             <overridable>true</overridable>
                             <expression>false</expression>
-                            <ns3:bound-prop>
+                            <ns5:bound-prop>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                                <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                                 <last-update-user>admin</last-update-user>
-                                <created>2013-05-01T02:49:23+00:00</created>
+                                <created>2014-02-27T14:21:53+05:30</created>
                                 <create-user>admin</create-user>
                                 <bind-lifecycle-type>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Catalog</name>
                                     <description>Bindable at service/catalog level.</description>
@@ -564,15 +759,15 @@
                                 <value><![CDATA[\Program Files (x86)\CloudVolumes\Agent]]></value>
                                 <overridable>true</overridable>
                                 <expression>false</expression>
-                            </ns3:bound-prop>
+                            </ns5:bound-prop>
                         </props>
                         <meta-tag>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>Web Servers</name>
                             <description>Web Server</description>
@@ -580,9 +775,9 @@
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:19+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>Server Type</name>
                                 <description>Server type, primarily used for organizing data.</description>
@@ -594,9 +789,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>SCRIPT</name>
                             <description>SCRIPT</description>
@@ -604,9 +799,9 @@
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:19+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>Application Component</name>
                                 <description>Application component, which is used to indicate what type of component is associated with an application or a service supports.</description>
@@ -618,22 +813,45 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-04-09T05:42:58+00:00</last-updated>
+                            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-04-08T04:29:35+00:00</created>
+                            <created>2014-02-27T14:21:53+05:30</created>
                             <create-user>admin</create-user>
                             <name>CloudVolumes Apache HTTP Server</name>
                             <description>CloudVolumes dynamically delivered Apache HTTP Server</description>
                             <revision>0</revision>
+                            <group-membership>
+                                <id>0</id>
+                                <inactive>false</inactive>
+                                <lock-version>0</lock-version>
+                                <last-updated>2014-02-27T14:21:53+05:30</last-updated>
+                                <last-update-user>admin</last-update-user>
+                                <created>2014-02-27T14:21:53+05:30</created>
+                                <create-user>admin</create-user>
+                                <owner-group>
+                                    <id>0</id>
+                                    <inactive>false</inactive>
+                                    <lock-version>0</lock-version>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
+                                    <last-update-user>SYSTEM</last-update-user>
+                                    <created>2013-11-26T02:58:20+05:30</created>
+                                    <create-user>SYSTEM</create-user>
+                                    <name>Default</name>
+                                    <description>The Default vCloud Application Director group.</description>
+                                    <name-message-key>group.default.name</name-message-key>
+                                    <description-message-key>group.default.description</description-message-key>
+                                </owner-group>
+                                <global>false</global>
+                            </group-membership>
                             <icon-name></icon-name>
                         </service>
                         <os-versions>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-03-15T10:00:00+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-03-15T10:00:00+00:00</created>
+                            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
+                            <last-update-user>admin</last-update-user>
+                            <created>2012-03-15T10:00:00+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>WIN64</name>
                             <description>Windows Server 2008 R2 Enterprise SP1</description>
@@ -648,9 +866,9 @@
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:51+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:21+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:51+00:00</created>
+                                <created>2013-11-26T02:58:21+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>WIN64</name>
                                 <description>Microsoft Windows 64bit</description>
@@ -660,9 +878,9 @@
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Windows</name>
                                     <description>Windows based operating systems</description>
@@ -670,9 +888,9 @@
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>OS Family</name>
                                     <description>Operating System (OS) Family.</description>
@@ -685,9 +903,9 @@
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>x86_64</name>
                                     <description>x86_64</description>
@@ -695,9 +913,9 @@
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Hardware Architecture</name>
                                     <description>Hardware Architecture, used to describe whether something is or supports 32 bit, 64 bit, etc.</description>
@@ -712,9 +930,9 @@
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-05-01T02:49:23+00:00</created>
+                            <created>2014-02-27T14:21:53+05:30</created>
                             <create-user>admin</create-user>
                             <description></description>
                             <script>echo Agent Install Dir: %AGENTDIR%
@@ -727,9 +945,9 @@ echo ERRORLEVEL is %ERRORLEVEL%
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:20+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>Windows Cmd Script</name>
                                 <description>Windows Command/ batch script.</description>
@@ -739,17 +957,17 @@ echo ERRORLEVEL is %ERRORLEVEL%
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:51+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:51+00:00</created>
+                                    <created>2013-11-26T02:58:20+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <os-family>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Windows</name>
                                     <description>Windows based operating systems</description>
@@ -757,9 +975,9 @@ echo ERRORLEVEL is %ERRORLEVEL%
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>OS Family</name>
                                     <description>Operating System (OS) Family.</description>
@@ -782,17 +1000,17 @@ set &gt; %2</exec-script>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:20+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <prop-type>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>String</name>
                                     <description>String (java.lang.String).</description>
@@ -803,17 +1021,17 @@ set &gt; %2</exec-script>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:20+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <prop-type>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Content</name>
                                     <description>Content (java.lang.String).</description>
@@ -824,17 +1042,17 @@ set &gt; %2</exec-script>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:20+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <prop-type>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Array</name>
                                     <description>Array</description>
@@ -846,9 +1064,9 @@ set &gt; %2</exec-script>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:51+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:51+00:00</created>
+                                <created>2013-11-26T02:58:20+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>INSTALL</name>
                                 <description>Install lifecycle on a component.</description>
@@ -861,9 +1079,9 @@ set &gt; %2</exec-script>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                            <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                             <last-update-user>admin</last-update-user>
-                            <created>2013-05-01T02:49:23+00:00</created>
+                            <created>2014-02-27T14:21:53+05:30</created>
                             <create-user>admin</create-user>
                             <description></description>
                             <script>net start apache2.2
@@ -874,9 +1092,9 @@ exit /b 0</script>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:50+00:00</created>
+                                <created>2013-11-26T02:58:20+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>Windows Cmd Script</name>
                                 <description>Windows Command/ batch script.</description>
@@ -886,17 +1104,17 @@ exit /b 0</script>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:51+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:51+00:00</created>
+                                    <created>2013-11-26T02:58:20+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <os-family>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Windows</name>
                                     <description>Windows based operating systems</description>
@@ -904,9 +1122,9 @@ exit /b 0</script>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>OS Family</name>
                                     <description>Operating System (OS) Family.</description>
@@ -929,17 +1147,17 @@ set &gt; %2</exec-script>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:20+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <prop-type>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>String</name>
                                     <description>String (java.lang.String).</description>
@@ -950,17 +1168,17 @@ set &gt; %2</exec-script>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:20+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <prop-type>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Content</name>
                                     <description>Content (java.lang.String).</description>
@@ -971,17 +1189,17 @@ set &gt; %2</exec-script>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:20+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <prop-type>
                                     <id>0</id>
                                     <inactive>false</inactive>
                                     <lock-version>0</lock-version>
-                                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                                    <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                                     <last-update-user>SYSTEM</last-update-user>
-                                    <created>2012-12-14T01:08:50+00:00</created>
+                                    <created>2013-11-26T02:58:19+05:30</created>
                                     <create-user>SYSTEM</create-user>
                                     <name>Array</name>
                                     <description>Array</description>
@@ -993,9 +1211,9 @@ set &gt; %2</exec-script>
                                 <id>0</id>
                                 <inactive>false</inactive>
                                 <lock-version>0</lock-version>
-                                <last-updated>2012-12-14T01:08:51+00:00</last-updated>
+                                <last-updated>2013-11-26T02:58:20+05:30</last-updated>
                                 <last-update-user>SYSTEM</last-update-user>
-                                <created>2012-12-14T01:08:51+00:00</created>
+                                <created>2013-11-26T02:58:20+05:30</created>
                                 <create-user>SYSTEM</create-user>
                                 <name>START</name>
                                 <description>Start lifecycle on a component.</description>
@@ -1010,9 +1228,9 @@ set &gt; %2</exec-script>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+                    <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                     <last-update-user>admin</last-update-user>
-                    <created>2013-05-05T04:06:00+00:00</created>
+                    <created>2014-02-27T14:21:53+05:30</created>
                     <create-user>admin</create-user>
                     <name>Memory(MB)</name>
                     <description>Virtual Memory in MB</description>
@@ -1021,34 +1239,46 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                         <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-12-14T01:08:50+00:00</created>
+                        <created>2013-11-26T02:58:19+05:30</created>
                         <create-user>SYSTEM</create-user>
                         <name>String</name>
                         <description>String (java.lang.String).</description>
                     </prop-type>
                     <required>true</required>
                     <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
                     <value><![CDATA[2048]]></value>
                     <readonly>false</readonly>
                     <overridable>true</overridable>
                     <expression>false</expression>
-                    <ns3:bound-prop>
+                    <ns5:bound-prop>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+                        <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-05T04:06:00+00:00</created>
+                        <created>2014-02-27T14:21:53+05:30</created>
                         <create-user>admin</create-user>
                         <bind-lifecycle-type>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>Blueprint</name>
                             <description>Bindable at blueprint level.</description>
@@ -1057,15 +1287,15 @@ set &gt; %2</exec-script>
                         <value><![CDATA[2048]]></value>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                    </ns3:bound-prop>
+                    </ns5:bound-prop>
                 </bindable-props>
                 <bindable-props>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+                    <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                     <last-update-user>admin</last-update-user>
-                    <created>2013-05-05T04:06:00+00:00</created>
+                    <created>2014-02-27T14:21:53+05:30</created>
                     <create-user>admin</create-user>
                     <name>vCPU</name>
                     <description>vCPU size</description>
@@ -1074,34 +1304,46 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                         <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-12-14T01:08:50+00:00</created>
+                        <created>2013-11-26T02:58:19+05:30</created>
                         <create-user>SYSTEM</create-user>
                         <name>String</name>
                         <description>String (java.lang.String).</description>
                     </prop-type>
                     <required>true</required>
                     <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
                     <value><![CDATA[1]]></value>
                     <readonly>false</readonly>
                     <overridable>true</overridable>
                     <expression>false</expression>
-                    <ns3:bound-prop>
+                    <ns5:bound-prop>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+                        <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-05T04:06:00+00:00</created>
+                        <created>2014-02-27T14:21:53+05:30</created>
                         <create-user>admin</create-user>
                         <bind-lifecycle-type>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>Blueprint</name>
                             <description>Bindable at blueprint level.</description>
@@ -1110,15 +1352,15 @@ set &gt; %2</exec-script>
                         <value><![CDATA[1]]></value>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                    </ns3:bound-prop>
+                    </ns5:bound-prop>
                 </bindable-props>
                 <bindable-props>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+                    <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                     <last-update-user>admin</last-update-user>
-                    <created>2013-05-05T04:06:00+00:00</created>
+                    <created>2014-02-27T14:21:53+05:30</created>
                     <create-user>admin</create-user>
                     <name>ClusterSize</name>
                     <description>Number of nodes in the cluster</description>
@@ -1127,34 +1369,46 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                         <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-12-14T01:08:50+00:00</created>
+                        <created>2013-11-26T02:58:19+05:30</created>
                         <create-user>SYSTEM</create-user>
                         <name>String</name>
                         <description>String (java.lang.String).</description>
                     </prop-type>
                     <required>true</required>
                     <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
                     <value><![CDATA[1]]></value>
                     <readonly>false</readonly>
                     <overridable>true</overridable>
                     <expression>false</expression>
-                    <ns3:bound-prop>
+                    <ns5:bound-prop>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+                        <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-05T04:06:00+00:00</created>
+                        <created>2014-02-27T14:21:53+05:30</created>
                         <create-user>admin</create-user>
                         <bind-lifecycle-type>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>Blueprint</name>
                             <description>Bindable at blueprint level.</description>
@@ -1163,15 +1417,15 @@ set &gt; %2</exec-script>
                         <value><![CDATA[1]]></value>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                    </ns3:bound-prop>
+                    </ns5:bound-prop>
                 </bindable-props>
                 <bindable-props>
                     <id>0</id>
                     <inactive>false</inactive>
                     <lock-version>0</lock-version>
-                    <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+                    <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                     <last-update-user>admin</last-update-user>
-                    <created>2013-05-05T04:06:00+00:00</created>
+                    <created>2014-02-27T14:21:53+05:30</created>
                     <create-user>admin</create-user>
                     <name>Hostname</name>
                     <description>Add host name or computer name. Use ${random} expression as needed.</description>
@@ -1180,34 +1434,46 @@ set &gt; %2</exec-script>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                         <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-12-14T01:08:50+00:00</created>
+                        <created>2013-11-26T02:58:19+05:30</created>
                         <create-user>SYSTEM</create-user>
                         <name>String</name>
                         <description>String (java.lang.String).</description>
                     </prop-type>
                     <required>false</required>
                     <secured>false</secured>
+                    <prop-auto-bind-type>
+                        <id>0</id>
+                        <inactive>false</inactive>
+                        <lock-version>1</lock-version>
+                        <last-updated>2013-11-26T02:58:19+05:30</last-updated>
+                        <last-update-user>SYSTEM</last-update-user>
+                        <created>2013-11-26T02:58:19+05:30</created>
+                        <create-user>SYSTEM</create-user>
+                        <name>None</name>
+                        <description>Property will not participate in auto-binding.</description>
+                        <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+                    </prop-auto-bind-type>
                     <value><![CDATA[]]></value>
                     <readonly>false</readonly>
                     <overridable>true</overridable>
                     <expression>false</expression>
-                    <ns3:bound-prop>
+                    <ns5:bound-prop>
                         <id>0</id>
                         <inactive>false</inactive>
                         <lock-version>0</lock-version>
-                        <last-updated>2013-05-05T04:06:39+00:00</last-updated>
+                        <last-updated>2014-02-27T14:21:53+05:30</last-updated>
                         <last-update-user>admin</last-update-user>
-                        <created>2013-05-05T04:06:00+00:00</created>
+                        <created>2014-02-27T14:21:53+05:30</created>
                         <create-user>admin</create-user>
                         <bind-lifecycle-type>
                             <id>0</id>
                             <inactive>false</inactive>
                             <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                            <last-updated>2013-11-26T02:58:19+05:30</last-updated>
                             <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
+                            <created>2013-11-26T02:58:19+05:30</created>
                             <create-user>SYSTEM</create-user>
                             <name>Blueprint</name>
                             <description>Bindable at blueprint level.</description>
@@ -1215,9 +1481,9 @@ set &gt; %2</exec-script>
                         </bind-lifecycle-type>
                         <overridable>true</overridable>
                         <expression>false</expression>
-                    </ns3:bound-prop>
+                    </ns5:bound-prop>
                 </bindable-props>
             </nodes>
         </blueprint>
     </application-versions>
-</ns24:export-package>
+</ns33:export-package>
