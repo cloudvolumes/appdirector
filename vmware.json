@@ -1,0 +1,20 @@
+{
+	"vmware":{
+		"config":{
+			"version":1.0
+		},
+		"applications":{
+			"applicationDirectorWebImport":{
+				"exportFileName":"CloudVolumes-Tester.xml",
+				"exportedFileReadme":"CloudVolumes-Tester.xml.readme",
+				"importSectionHeader":"CloudVolumes-Tester",
+				"exportedWithAppDVersion":5.0,
+				"optional":{
+					"nextStepsMarkdownFile":"CloudVolumes-Tester.xml.md",
+					"enableConsoleLogging":true,
+					"exportedFileErrorReadme":"CloudVolumes-Tester.xml.error.readme"
+				}
+			}
+		}
+	}
+}
