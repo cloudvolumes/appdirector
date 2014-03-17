@@ -1,0 +1,1 @@
+This enables the application to deployed from an existing VMDK (see CloudVolumes Admin Guide for instructions on how to provision the application into the VMDK) without needing to re-install it.
