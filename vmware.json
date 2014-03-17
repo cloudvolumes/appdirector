@@ -1,0 +1,20 @@
+{
+	"vmware":{
+		"config":{
+			"version":1.0
+		},
+		"applications":{
+			"applicationDirectorWebImport":{
+				"exportFileName":"CloudVolumes-MySQL-Server-Service.xml",
+				"exportedFileReadme":"CloudVolumes-MySQL-Server-Service.xml.readme",
+				"importSectionHeader":"CloudVolumes-MySQL-Server-Service",
+				"exportedWithAppDVersion":5.0,
+				"optional":{
+					"nextStepsMarkdownFile":"CloudVolumes-MySQL-Server-Service.xml.md",
+					"enableConsoleLogging":true,
+					"exportedFileErrorReadme":"CloudVolumes-MySQL-Server-Service.xml.error.readme"
+				}
+			}
+		}
+	}
+}
