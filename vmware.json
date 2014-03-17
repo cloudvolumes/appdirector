@@ -1,0 +1,20 @@
+{
+	"vmware":{
+		"config":{
+			"version":1.0
+		},
+		"applications":{
+			"applicationDirectorWebImport":{
+				"exportFileName":"CloudVolumes-WordPress-Cluster.xml",
+				"exportedFileReadme":"CloudVolumes-WordPress-Cluster.xml.readme",
+				"importSectionHeader":"CloudVolumes-WordPress-Cluster",
+				"exportedWithAppDVersion":5.0,
+				"optional":{
+					"nextStepsMarkdownFile":"CloudVolumes-WordPress-Cluster.xml.md",
+					"enableConsoleLogging":true,
+					"exportedFileErrorReadme":"CloudVolumes-WordPress-Cluster.xml.error.readme"
+				}
+			}
+		}
+	}
+}
