@@ -1,0 +1,20 @@
+{
+	"vmware":{
+		"config":{
+			"version":1.0
+		},
+		"applications":{
+			"applicationDirectorWebImport":{
+				"exportFileName":"CloudVolumes-Update-Volume-Service.xml",
+				"exportedFileReadme":"CloudVolumes-Update-Volume-Service.xml.readme",
+				"importSectionHeader":"CloudVolumes-Update-Volume-Service",
+				"exportedWithAppDVersion":5.0,
+				"optional":{
+					"nextStepsMarkdownFile":"CloudVolumes-Update-Volume-Service.xml.md",
+					"enableConsoleLogging":true,
+					"exportedFileErrorReadme":"CloudVolumes-Update-Volume-Service.xml.error.readme"
+				}
+			}
+		}
+	}
+}
