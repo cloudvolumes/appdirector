@@ -1,0 +1,20 @@
+{
+	"vmware":{
+		"config":{
+			"version":1.0
+		},
+		"applications":{
+			"applicationDirectorWebImport":{
+				"exportFileName":"CloudVolumes-Jenkins-Server-Service.xml",
+				"exportedFileReadme":"CloudVolumes-Jenkins-Server-Service.xml.readme",
+				"importSectionHeader":"CloudVolumes-Jenkins-Server-Service",
+				"exportedWithAppDVersion":5.0,
+				"optional":{
+					"nextStepsMarkdownFile":"CloudVolumes-Jenkins-Server-Service.xml.md",
+					"enableConsoleLogging":true,
+					"exportedFileErrorReadme":"CloudVolumes-Jenkins-Server-Service.xml.error.readme"
+				}
+			}
+		}
+	}
+}
