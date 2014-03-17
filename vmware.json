@@ -1,0 +1,20 @@
+{
+	"vmware":{
+		"config":{
+			"version":1.0
+		},
+		"applications":{
+			"applicationDirectorWebImport":{
+				"exportFileName":"CloudVolumes-Provisioner.xml",
+				"exportedFileReadme":"CloudVolumes-Provisioner.xml.readme",
+				"importSectionHeader":"CloudVolumes-Provisioner",
+				"exportedWithAppDVersion":5.0,
+				"optional":{
+					"nextStepsMarkdownFile":"CloudVolumes-Provisioner.xml.md",
+					"enableConsoleLogging":true,
+					"exportedFileErrorReadme":"CloudVolumes-Provisioner.xml.error.readme"
+				}
+			}
+		}
+	}
+}
