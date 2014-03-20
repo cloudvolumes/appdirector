@@ -1,8 +1,9 @@
 Initial configuration
 ==============
-- Follow the vFabric App Director instructions for creating a Windows Server 2008 R2 Enterprise SP1 virtual machine containing the AppDirector agent. 
+- Follow the vCloud Application Director 6.0 instructions for creating a Windows Server 2008 R2 Enterprise SP1 virtual machine template for vCAC 6.0 containing the bootstrap agent. 
 - Before converting this virtual machine into a VM template, install the CloudVolumes Agent into this virtual machine.
-- Add this VM template in the "Cloud Template Mapping" in the "Windows Server 2008 R2 Enterprise SP1 VM" logical template.
+- Map this VM template to the Windows blueprint (vCAC template) in vCAC.
+- Add this blueprint in the "Cloud Template Mapping" in the "Windows Server 2008 R2 Enterprise SP1 VM" logical template in vCloud Application Director.
 
 Provision a new application
 ==============
