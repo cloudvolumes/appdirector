@@ -31,16 +31,16 @@
         <id>0</id>
         <inactive>false</inactive>
         <lock-version>0</lock-version>
-        <last-updated>2013-04-19T05:57:42+00:00</last-updated>
+        <last-updated>2013-05-01T02:49:41+00:00</last-updated>
         <last-update-user>admin</last-update-user>
-        <created>2013-03-31T02:22:53+00:00</created>
+        <created>2013-05-01T02:49:23+00:00</created>
         <create-user>admin</create-user>
-        <name>CloudVolumes SQL Server 2008</name>
-        <description>CloudVolumes dynamically delivered SQL Server 2008 Volume</description>
+        <name>CloudVolumes Apache HTTP Server</name>
+        <description>CloudVolumes dynamically delivered Apache HTTP Server Volume</description>
         <revision>0</revision>
         <major>1</major>
         <minor>0</minor>
-        <micro>0</micro>
+        <micro>1</micro>
         <qualifier></qualifier>
         <dynamically-installable>true</dynamically-installable>
         <auto-bind-properties>false</auto-bind-properties>
@@ -49,9 +49,74 @@
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-04-19T05:57:42+00:00</last-updated>
+            <last-updated>2013-05-01T02:49:41+00:00</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-03-31T02:22:53+00:00</created>
+            <created>2013-05-01T02:49:23+00:00</created>
+            <create-user>admin</create-user>
+            <name></name>
+            <description>CloudVolumes volume name</description>
+            <key>VOLUME</key>
+            <prop-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2012-12-14T01:08:50+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>String</name>
+                <description>String (java.lang.String).</description>
+            </prop-type>
+            <required>true</required>
+            <secured>false</secured>
+            <prop-auto-bind-type>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>1</lock-version>
+                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                <last-update-user>SYSTEM</last-update-user>
+                <created>2012-12-14T01:08:50+00:00</created>
+                <create-user>SYSTEM</create-user>
+                <name>None</name>
+                <description>Property will not participate in auto-binding.</description>
+                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
+            </prop-auto-bind-type>
+            <value><![CDATA[apache_2.2.22.vmdk]]></value>
+            <readonly>false</readonly>
+            <overridable>true</overridable>
+            <expression>false</expression>
+            <ns3:bound-prop>
+                <id>0</id>
+                <inactive>false</inactive>
+                <lock-version>0</lock-version>
+                <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+                <last-update-user>admin</last-update-user>
+                <created>2013-05-01T02:49:23+00:00</created>
+                <create-user>admin</create-user>
+                <bind-lifecycle-type>
+                    <id>0</id>
+                    <inactive>false</inactive>
+                    <lock-version>0</lock-version>
+                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
+                    <last-update-user>SYSTEM</last-update-user>
+                    <created>2012-12-14T01:08:50+00:00</created>
+                    <create-user>SYSTEM</create-user>
+                    <name>Catalog</name>
+                    <description>Bindable at service/catalog level.</description>
+                    <lifecycle-order>1</lifecycle-order>
+                </bind-lifecycle-type>
+                <value><![CDATA[apache_2.2.22.vmdk]]></value>
+                <overridable>true</overridable>
+                <expression>false</expression>
+            </ns3:bound-prop>
+        </props>
+        <props>
+            <id>0</id>
+            <inactive>false</inactive>
+            <lock-version>0</lock-version>
+            <last-updated>2013-05-01T02:49:41+00:00</last-updated>
+            <last-update-user>admin</last-update-user>
+            <created>2013-05-01T02:49:23+00:00</created>
             <create-user>admin</create-user>
             <name></name>
             <description>CloudVolumes Agent Installation Directory</description>
@@ -89,9 +154,9 @@
                 <id>0</id>
                 <inactive>false</inactive>
                 <lock-version>0</lock-version>
-                <last-updated>2013-04-19T05:57:42+00:00</last-updated>
+                <last-updated>2013-05-01T02:49:41+00:00</last-updated>
                 <last-update-user>admin</last-update-user>
-                <created>2013-03-31T02:22:53+00:00</created>
+                <created>2013-05-01T02:49:23+00:00</created>
                 <create-user>admin</create-user>
                 <bind-lifecycle-type>
                     <id>0</id>
@@ -110,71 +175,6 @@
                 <expression>false</expression>
             </ns3:bound-prop>
         </props>
-        <props>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-04-19T05:57:42+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-03-31T02:22:53+00:00</created>
-            <create-user>admin</create-user>
-            <name></name>
-            <description>SQL Server database instance</description>
-            <key>INSTANCENAME</key>
-            <prop-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2012-12-14T01:08:50+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>String</name>
-                <description>String (java.lang.String).</description>
-            </prop-type>
-            <required>true</required>
-            <secured>false</secured>
-            <prop-auto-bind-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>1</lock-version>
-                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2012-12-14T01:08:50+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>None</name>
-                <description>Property will not participate in auto-binding.</description>
-                <prop-auto-bind-type-enum>NONE</prop-auto-bind-type-enum>
-            </prop-auto-bind-type>
-            <value><![CDATA[SQLSERVER]]></value>
-            <readonly>false</readonly>
-            <overridable>false</overridable>
-            <expression>false</expression>
-            <ns3:bound-prop>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2013-04-19T05:57:42+00:00</last-updated>
-                <last-update-user>admin</last-update-user>
-                <created>2013-03-31T02:22:53+00:00</created>
-                <create-user>admin</create-user>
-                <bind-lifecycle-type>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2012-12-14T01:08:50+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <name>Catalog</name>
-                    <description>Bindable at service/catalog level.</description>
-                    <lifecycle-order>1</lifecycle-order>
-                </bind-lifecycle-type>
-                <value><![CDATA[SQLSERVER]]></value>
-                <overridable>false</overridable>
-                <expression>false</expression>
-            </ns3:bound-prop>
-        </props>
         <meta-tag>
             <id>0</id>
             <inactive>false</inactive>
@@ -183,8 +183,8 @@
             <last-update-user>SYSTEM</last-update-user>
             <created>2012-12-14T01:08:50+00:00</created>
             <create-user>SYSTEM</create-user>
-            <name>Database Servers</name>
-            <description>Database servers</description>
+            <name>Web Servers</name>
+            <description>Web Server</description>
             <meta-tag-type>
                 <id>0</id>
                 <inactive>false</inactive>
@@ -207,32 +207,8 @@
             <last-update-user>SYSTEM</last-update-user>
             <created>2012-12-14T01:08:50+00:00</created>
             <create-user>SYSTEM</create-user>
-            <name>Windows Services</name>
-            <description>Windows Services</description>
-            <meta-tag-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2012-12-14T01:08:50+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>Server Type</name>
-                <description>Server type, primarily used for organizing data.</description>
-                <meta-tag-enum>SERVER_TYPE</meta-tag-enum>
-                <user-managed-type>true</user-managed-type>
-            </meta-tag-type>
-        </meta-tag>
-        <meta-tag>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-            <last-update-user>SYSTEM</last-update-user>
-            <created>2012-12-14T01:08:50+00:00</created>
-            <create-user>SYSTEM</create-user>
-            <name>SQL SCRIPT</name>
-            <description>SQL SCRIPT</description>
+            <name>SCRIPT</name>
+            <description>SCRIPT</description>
             <meta-tag-type>
                 <id>0</id>
                 <inactive>false</inactive>
@@ -251,12 +227,12 @@
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-04-09T02:21:17+00:00</last-updated>
+            <last-updated>2013-04-09T05:42:58+00:00</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-03-31T02:17:04+00:00</created>
+            <created>2013-04-08T04:29:35+00:00</created>
             <create-user>admin</create-user>
-            <name>CloudVolumes SQL Server 2008</name>
-            <description>CloudVolumes dynamically delivered SQL Server 2008 volume</description>
+            <name>CloudVolumes Apache HTTP Server</name>
+            <description>CloudVolumes dynamically delivered Apache HTTP Server</description>
             <revision>0</revision>
             <icon-name></icon-name>
         </service>
@@ -345,14 +321,14 @@
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-04-19T05:57:42+00:00</last-updated>
+            <last-updated>2013-05-01T02:49:41+00:00</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-03-31T02:22:53+00:00</created>
+            <created>2013-05-01T02:49:23+00:00</created>
             <create-user>admin</create-user>
             <description></description>
             <script>echo Agent Install Dir: %AGENTDIR%
 echo running as %USERDOMAIN%\%USERNAME%
-if exist  "%AGENTDIR%\svservice.exe" call "%AGENTDIR%\svservice.exe" attach sql_server_2008.vmdk
+if exist  "%AGENTDIR%\svservice.exe" call "%AGENTDIR%\svservice.exe" attach %VOLUME%
 echo ERRORLEVEL is %ERRORLEVEL%
 </script>
             <embedded>true</embedded>
@@ -494,17 +470,13 @@ set &gt; %2</exec-script>
             <id>0</id>
             <inactive>false</inactive>
             <lock-version>0</lock-version>
-            <last-updated>2013-04-19T05:57:42+00:00</last-updated>
+            <last-updated>2013-05-01T02:49:41+00:00</last-updated>
             <last-update-user>admin</last-update-user>
-            <created>2013-03-31T02:22:53+00:00</created>
+            <created>2013-05-01T02:49:23+00:00</created>
             <create-user>admin</create-user>
             <description></description>
-            <script>rem net start sqlwriter
-rem echo ERRORLEVEL %ERRORLEVEL%
-
-net start MSSQL$%INSTANCENAME%
+            <script>net start apache2.2
 echo ERRORLEVEL %ERRORLEVEL%
-
 exit /b 0</script>
             <embedded>true</embedded>
             <script-type>
@@ -638,155 +610,6 @@ set &gt; %2</exec-script>
                 <description>Start lifecycle on a component.</description>
                 <name-message-key>type.lifecycle.start.name</name-message-key>
                 <description-message-key>type.lifecycle.start.description</description-message-key>
-            </component-lifecycle-type>
-            <reboot-after>false</reboot-after>
-        </ns9:component-version-script>
-        <ns9:component-version-script>
-            <id>0</id>
-            <inactive>false</inactive>
-            <lock-version>0</lock-version>
-            <last-updated>2013-04-19T05:57:42+00:00</last-updated>
-            <last-update-user>admin</last-update-user>
-            <created>2013-04-09T02:19:20+00:00</created>
-            <create-user>admin</create-user>
-            <description></description>
-            <script>\windows\system32\netsh advfirewall firewall add rule name="SQL Server" dir=in  program="c:\Program Files\Microsoft SQL Server\MSSQL10.%INSTANCENAME%\MSSQL\Binn\sqlservr.exe" action=allow
-\windows\system32\netsh advfirewall firewall add rule name="SQL Server Browser" dir=in program="C:\Program Files (x86)\Microsoft SQL Server\90\Shared\sqlbrowser.exe" action=allow
-\windows\system32\netsh advfirewall firewall set rule name="Network Discovery (NB-Name-In)" new enable=yes
-echo ERRORLEVEL is %ERRORLEVEL%
-exit /b 0</script>
-            <embedded>true</embedded>
-            <script-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2012-12-14T01:08:50+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>Windows Cmd Script</name>
-                <description>Windows Command/ batch script.</description>
-                <name-message-key>type.script.cmd.name</name-message-key>
-                <description-message-key>type.script.cmd.description</description-message-key>
-                <supported-os-details>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2012-12-14T01:08:51+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2012-12-14T01:08:51+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <os-family>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                        <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-12-14T01:08:50+00:00</created>
-                        <create-user>SYSTEM</create-user>
-                        <name>Windows</name>
-                        <description>Windows based operating systems</description>
-                        <meta-tag-type>
-                            <id>0</id>
-                            <inactive>false</inactive>
-                            <lock-version>0</lock-version>
-                            <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                            <last-update-user>SYSTEM</last-update-user>
-                            <created>2012-12-14T01:08:50+00:00</created>
-                            <create-user>SYSTEM</create-user>
-                            <name>OS Family</name>
-                            <description>Operating System (OS) Family.</description>
-                            <meta-tag-enum>OS_FAMILY</meta-tag-enum>
-                            <user-managed-type>false</user-managed-type>
-                        </meta-tag-type>
-                        <os-family>WINDOWS</os-family>
-                    </os-family>
-                    <supports-array-props>true</supports-array-props>
-                    <supports-output-props>true</supports-output-props>
-                    <exec-command>&lt;exec-script&gt; &lt;script-file&gt; &lt;output-properties-file&gt; &lt;task-output-log-file&gt;</exec-command>
-                    <exec-script>@echo off&#xd;
-call %1 &gt;%3 2&gt;&amp;1 &#xd;
-if NOT %errorlevel% EQU 0 exit %errorlevel%&#xd;
-set &gt; %2</exec-script>
-                    <exec-script-extension>cmd</exec-script-extension>
-                    <file-extension>cmd</file-extension>
-                </supported-os-details>
-                <script-type-expression>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2012-12-14T01:08:50+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <prop-type>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                        <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-12-14T01:08:50+00:00</created>
-                        <create-user>SYSTEM</create-user>
-                        <name>String</name>
-                        <description>String (java.lang.String).</description>
-                    </prop-type>
-                    <expression>%&lt;property-name&gt;%</expression>
-                </script-type-expression>
-                <script-type-expression>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2012-12-14T01:08:50+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <prop-type>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                        <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-12-14T01:08:50+00:00</created>
-                        <create-user>SYSTEM</create-user>
-                        <name>Content</name>
-                        <description>Content (java.lang.String).</description>
-                    </prop-type>
-                    <expression>%&lt;property-name&gt;%</expression>
-                </script-type-expression>
-                <script-type-expression>
-                    <id>0</id>
-                    <inactive>false</inactive>
-                    <lock-version>0</lock-version>
-                    <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                    <last-update-user>SYSTEM</last-update-user>
-                    <created>2012-12-14T01:08:50+00:00</created>
-                    <create-user>SYSTEM</create-user>
-                    <prop-type>
-                        <id>0</id>
-                        <inactive>false</inactive>
-                        <lock-version>0</lock-version>
-                        <last-updated>2012-12-14T01:08:50+00:00</last-updated>
-                        <last-update-user>SYSTEM</last-update-user>
-                        <created>2012-12-14T01:08:50+00:00</created>
-                        <create-user>SYSTEM</create-user>
-                        <name>Array</name>
-                        <description>Array</description>
-                    </prop-type>
-                    <expression>%&lt;property-name&gt;_0%</expression>
-                </script-type-expression>
-            </script-type>
-            <component-lifecycle-type>
-                <id>0</id>
-                <inactive>false</inactive>
-                <lock-version>0</lock-version>
-                <last-updated>2012-12-14T01:08:51+00:00</last-updated>
-                <last-update-user>SYSTEM</last-update-user>
-                <created>2012-12-14T01:08:51+00:00</created>
-                <create-user>SYSTEM</create-user>
-                <name>CONFIGURE</name>
-                <description>Configure lifecycle on a component.</description>
-                <name-message-key>type.lifecycle.configure.name</name-message-key>
-                <description-message-key>type.lifecycle.configure.description</description-message-key>
             </component-lifecycle-type>
             <reboot-after>false</reboot-after>
         </ns9:component-version-script>
